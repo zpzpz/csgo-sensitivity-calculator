@@ -41,7 +41,7 @@ int main()
 	prettyPrint("\nnew ingame sensitivty: ");
 	std::cout << changeDPI(dpi, sens, newDpi);
 	prettyPrint("\ntype 'sensitivity ");
-
+	//calculating changeDPI twice because im too lazy to save the results
 	std::cout << changeDPI(dpi, sens, newDpi);
 	prettyPrint("' into your console\n\n");
 
